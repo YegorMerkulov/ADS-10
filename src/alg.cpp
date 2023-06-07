@@ -7,7 +7,7 @@
 
 std::vector<char> getPerm(const Tree& tree, int n) {
   // напишите реализацию
-   std::vector<std::vector<char>> permutes = tree.getAllPermutes();
+  std::vector<std::vector<char>> permutes = tree.getAllPermutes();
     if (permutes.size() >= n) {
         return permutes[n - 1];
     }
